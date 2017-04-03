@@ -1,0 +1,26 @@
+@import '../common';
+
+.navbar {
+  height: 3.5rem;
+  background-color: $darkBgColor;
+  margin: 0rem;
+  // padding: 0.5rem;
+  
+  .logo {
+    display: inline-block;
+  }
+
+  .logo {
+    color: $lightBgColor;
+    margin-right: 50%;
+    font-size: 1rem;
+  }
+  .logo h1 span a {
+  color: #ffffff;
+  }
+  a:active{
+    color:black;
+  }
+  
+
+}
