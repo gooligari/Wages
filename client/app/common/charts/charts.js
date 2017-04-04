@@ -11,4 +11,3 @@ let chartsModule = angular.module('charts', [
 .name;
 
 export default chartsModule;
-
