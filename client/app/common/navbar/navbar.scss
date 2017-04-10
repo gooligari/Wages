@@ -1,26 +1,36 @@
 @import '../common';
-
-.navbar {
-  height: 70px;
-  background-color: $darkBgColor;
-  margin: 0rem;
-  // padding: 0.5rem;
-  
-  .logo {
-    display: inline-block;
-  }
-
-  .logo {
-    color: $lightBgColor;
-    margin-right: 50%;
-    font-size: 1rem;
-  }
-  .logo h1 span a {
-  color: #ffffff;
-  }
-  a:active{
-    color:black;
-  }
-  
-
+#sidebar ul li a:hover {
+  border-left: 3px solid #d19b3d;
+  background-color: #4f5b69;
+  transition: all 0s ease;
+}
+#sidebar ul li a{
+  color: white;
+  background-color: darkcyan;
+}
+#sidebar .side-menu ul li a i{
+  // padding-right: 10px;
+  padding:0px 5px 0px 0px;
+}
+.side-menu{
+  margin-left: -15px;
+  margin-top: 65px;
+  height: 98rem;
+  background-color: rgb(46,53,61);
+  padding-right: 0px;
+  width: 209px;
+}
+ul{
+  color:antiquewhite;
+}
+.main-navbar{
+  color:floralwhite;
+  font-weight: bold;
+  font-size: 25px;
+}
+.navbar{
+  background-color: rgb(46,53,61);
+  text-align: center;
+  padding: 15px;
+  border-radius: 2px;
 }

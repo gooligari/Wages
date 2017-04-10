@@ -1,13 +1,6 @@
 class ChartsController {
   constructor() {
     this.name = 'Charts';
-
-    
-
-
-
-
-
   }
 }
 

@@ -1,12 +1,18 @@
 import angular from 'angular';
-import Home from './home/home';
-import About from './about/about';
-import Dashboard from './dashboard/dashboard';
+import Energytrend from './energytrend/energytrend';
+import Shift from './shift/shift';
+import Energy from './energy/energy';
+import Products from './products/products';
+import Budget from './budget/budget';
+import Baseline from './baseline/baseline';
 
 let componentModule = angular.module('app.components', [
-  Home,
-  About,
-  Dashboard
+  Energytrend,
+  Shift,
+  Energy,
+  Products,
+  Budget,
+  Baseline  
 ])
 
 .name;
