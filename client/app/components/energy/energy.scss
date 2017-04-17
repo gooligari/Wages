@@ -1,9 +1,66 @@
 
 #chartspan {
-  width: 50%;
-  // height: 300px;
+  width: 90%;
+  // height: 40rem;
 }	
-.chart-s{
-   margin-top: 2px;
-   width:60rem;
+.charts{
+   margin-top: 50px;
+   width:100rem;
+  //  height: 40rem;
+   margin-left: 150px;
+   background-color: white;
+   padding: 1rem;
+  //  display: block;
+   border-radius: 10px;
+   box-shadow: 10px 10px 5px darkgrey;
 }
+.charts span{
+  color: black;
+  font-weight: bold;
+}
+// .container .charts{
+//   box-shadow: 10px 10px 5px darkgrey;
+// }
+#chartd {
+  width: 100%;
+  height: 300px;
+}	
+#chartdi {
+  width: 85%;
+  height: 300px;
+}
+#chartdiv {
+  width: 95%;
+  height: 300px;
+}
+@media screen and (max-width: 450px) {
+    .charts #chartd{size: 20px;float: right;}
+
+}
+
+@media(min-width:768px) {
+
+    .charts #chartdi{
+        padding: 20px;
+        position: relative;
+        margin: 20px;
+    }
+    .charts #chartdiv{
+        padding: 20px;
+        margin: 20px;
+    }
+
+}
+
+@media(max-width:414px) {
+
+.charts #chartdi{
+  padding-right: 10rem;
+  margin: 20px;
+}
+.charts #chartdiv{
+        margin: 20px;
+    }
+
+}
+  
